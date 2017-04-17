@@ -1,0 +1,65 @@
+var wines = {
+  merlot: {
+    name: "California Merlot",
+    type: "red",
+    cheeses: ["Parmigiano-Reggiano"]
+  }
+  pinot-noir : {
+    name: "Pinot Noir",
+    type: "red",
+    cheeses: ["Epoisses de Bourgogne", "Cheddar", "Manchego"]
+  }
+  red-bordeaux: {
+    name: "Red Bordeaux",
+    type: "red",
+    cheeses: ["Cheddar"]
+  }
+  syrah: {
+    name: "Syrah",
+    type: "red",
+    cheeses: ["Gruyere", "Cheddar", "Classic Blue"]
+  }
+  chianti: {
+    name: "Chianti Classico",
+    type: "red",
+    cheeses: ["Classic Blue"]
+  }
+  tuscan-sangiovese: {
+    name: "Tuscan Sangiovese",
+    type: "red",
+    cheeses: ["Gruyere"]
+  }
+  barolo: {
+    name: "Barolo",
+    type: "red",
+    cheeses: ["Cheddar", "Parmigiano-Reggiano"]
+  }
+}
+
+
+var cheeses = {
+  cheddar: {
+    name: "Cheddar",
+    wines: ["Syrah", "Red Bordeaux", "Pinot Noir"]
+  }
+  epoisses-de: {
+    name: "Epoisses de Bourgogne",
+    wines: ["Alsatian Riesling", "Pinot Noir"]
+  }
+  classic-blue: {
+    name: "Classic Blue",
+    wines: ["Chianti Classico", "Syrah"]
+  }
+  gruyere: {
+    name: "Gruyere",
+    wines: ["Syrah", "Tuscan Sangiovese"]
+  }
+  manchego: {
+    name: "Manchego",
+    wines: ["Pinot Noir"]
+  }
+  parmigiano-reggiano: {
+    name: "Parmigiano-Reggiano",
+    wines: ["California Merlot", "Barolo", "Parmigiano-Reggiano"]
+  }
+}
