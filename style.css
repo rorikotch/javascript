@@ -26,48 +26,42 @@ img  {
    float: right;
  }
 
-
+/*
  .blue {
    /*border: 1px solid;
    border-color: blue;
    max-width: 240px;
    max-height: 240px;
-   */
  }
 
  .cheddar {
-  /* max-width: 240px;
+  max-width: 240px;
    max-height: 240px;
-   */
  }
 
  .epoisses {
-   /*
    max-width: 240px;
    max-height: 240px;
-   */
  }
 
  .gruyere {
-  /* border: 1px solid;
+    border: 1px solid;
    border-color: purple;
    max-width: 240px;
    max-height: 240px;
-   */
  }
 
  .manchego {
-   /*border: 1px solid;
+  border: 1px solid;
    border-color: black;
    max-width: 240px;
    max-height: 240px;
-   */
  }
 
  .parm {
-   /* border: 1px solid;
+  border: 1px solid;
    border-color: pink;
    max-width: 240px;
    max-height: 240px;
-   */
  }
+ */ 
