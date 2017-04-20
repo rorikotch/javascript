@@ -15,13 +15,15 @@ p {
 img  {
   max-width: 240px;
   padding:10px;
+  width: 260px;
+  height: 180px;
  }
 
  #cheese {
    position: relative;
    width: 240px;
    height: 240px;
-   float: right; 
+   float: right;
  }
 
 
@@ -68,6 +70,4 @@ img  {
    max-width: 240px;
    max-height: 240px;
    */
-   max-width: 240px;
-   max-height: 240px;
  }
