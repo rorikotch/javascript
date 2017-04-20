@@ -19,11 +19,20 @@ img  {
   height: 180px;
  }
 
+ svg {
+   height: 180px;
+   width: 260px;
+ }
+
  #cheese {
    position: relative;
    width: 240px;
    height: 240px;
    float: right;
+ }
+
+ #mouse1 {
+
  }
 
 /*
