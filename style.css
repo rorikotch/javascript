@@ -31,10 +31,6 @@ img  {
    float: right;
  }
 
- #mouse1 {
-
- }
-
  .parm {
    max-width: 240px;
    max-height: 240px;
@@ -44,24 +40,14 @@ img  {
    margin-right: 150px;
    max-width: 240px;
    max-height: 240px;
-   width: 260px;
-   height: 180px;
  }
 
  .gruyere {
    max-width: 240px;
    max-height: 240px;
-   width: 260px;
-   height: 180px;
-   float: left;
  }
 
-/*
-
-
- .blue {
-   border: 1px solid;
-   border-color: blue;
+ .epoisses {
    max-width: 240px;
    max-height: 240px;
  }
@@ -71,14 +57,7 @@ img  {
    max-height: 240px;
  }
 
- .epoisses {
+ .blue {
    max-width: 240px;
    max-height: 240px;
  }
-
-
-
-
-
-
- */

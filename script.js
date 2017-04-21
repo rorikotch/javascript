@@ -16,7 +16,7 @@
 
 });
 */
-
+/*
 var cheese;
 
 if (cheese.visible("class") == false) {
@@ -24,3 +24,6 @@ if (cheese.visible("class") == false) {
 } else {
   cheese.visibl("class")== true;
 }
+*/
+
+var cheese;
