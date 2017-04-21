@@ -23,6 +23,15 @@ p {
    height: 240px;
  }
 
+ svg {
+   height: 240px;
+   width: 240px;
+ }
+
+ svg:hover {
+   opacity: 0.5; 
+ }
+
  .parm {
    max-width: 240px;
    max-height: 240px;
