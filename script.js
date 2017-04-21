@@ -27,3 +27,7 @@ if (cheese.visible("class") == false) {
 */
 
 var cheese;
+
+if (cheese.variable("blue" == true) {
+  display.visible
+}
