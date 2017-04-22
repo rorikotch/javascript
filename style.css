@@ -29,12 +29,6 @@ a{
    width: 260px;
  }
 
- #cheese {
-   position: relative;
-   width: 240px;
-   height: 240px;
- }
-
  svg {
    height: 240px;
    width: 240px;
@@ -44,7 +38,6 @@ a{
    visibility: hidden;
  }
 
-
  svg:hover #mouse{
    visibility: visible;
  }
@@ -53,11 +46,13 @@ a{
  .blue {
    max-width: 240px;
    max-height: 240px;
- }
+}
 
  .cheddar {
+  position: relative;
   max-width: 240px;
-  max-height: 240px;
+  max-height: 260px;
+  margin-left: 260px;
  }
 
  .epoisses {
