@@ -7,6 +7,12 @@ h1{
   color: white;
 }
 
+body {
+  background-color: black;
+  display: grid;
+  grid-template-columns: auto;
+}
+
 p {
   font-family: sans-serif;
   max-width: 880px;
@@ -16,12 +22,6 @@ p {
 
 a{
   color: white;
-}
-
-body {
-  background-color: black;
-  display: grid;
-  grid-template-columns: auto;
 }
 
  svg {
@@ -57,7 +57,7 @@ body {
 
  .cheddar {
   max-width: 240px;
-   max-height: 240px;
+  max-height: 240px;
  }
 
  .epoisses {
