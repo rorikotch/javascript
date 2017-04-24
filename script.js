@@ -31,7 +31,6 @@ epoissesdesvg.addEventListener("click",function(){
 gruyeresvg = document.getElementById("gruyere")
 gruyeresvg.addEventListener("click",function(){
   console.log(cheeses["gruyere"].wines)
-
 })
 
 manchegosvg = document.getElementById("manchego")
