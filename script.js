@@ -18,30 +18,35 @@ cheddarsvg.addEventListener("click",function(){
   console.log(cheeses["cheddar"].wines)
 })
 
-cheddarsvg = document.getElementById("classicblue")
-cheddarsvg.addEventListener("click",function(){
+classicbluesvg = document.getElementById("classicblue")
+classicbluesvg.addEventListener("click",function(){
   console.log(cheeses["classicblue"].wines)
 })
 
-cheddarsvg = document.getElementById("epoissesde")
-cheddarsvg.addEventListener("click",function(){
+epoissesdesvg = document.getElementById("epoissesde")
+epoissesdesvg.addEventListener("click",function(){
   console.log(cheeses["epoissesde"].wines)
 })
 
-cheddarsvg = document.getElementById("gruyere")
-cheddarsvg.addEventListener("click",function(){
+gruyeresvg = document.getElementById("gruyere")
+gruyeresvg.addEventListener("click",function(){
   console.log(cheeses["gruyere"].wines)
+
 })
 
-cheddarsvg = document.getElementById("manchego")
-cheddarsvg.addEventListener("click",function(){
+manchegosvg = document.getElementById("manchego")
+manchegosvg.addEventListener("click",function(){
   console.log(cheeses["manchego"].wines)
 })
 
-cheddarsvg = document.getElementById("parmigianoreggiano")
-cheddarsvg.addEventListener("click",function(){
+parmigianoreggianoSvg = document.getElementById("parmigianoreggiano")
+parmigianoreggianoSvg.addEventListener("click",function(){
   console.log(cheeses["parmigianoreggiano"].wines)
 })
+
+/* parmigianoreggianoSvg = document.getElementById(cheeses.["parmigianoreggiano".name]).style.display = "none";
+*/
+
 
 
 /*add the names on hover*/
