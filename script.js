@@ -1,4 +1,4 @@
-var blue = ["Chianti Classico", "Syrah"]
+/*var blue = ["Chianti Classico", "Syrah"]
 var cheddar = ["Syrah", "Red Bordeaux", "Pinot Noir"]
 var epoisses = ["Pinot Noir"]
 var gruyere = ["Syrah", "Tuscan Sangiovese"]
@@ -11,3 +11,13 @@ var syrah = ["Cheddar"]
 var chianti = ["Classic Blue"]
 var sangiovese = ["Gruyere"]
 var barolo = ["Cheddar", "Parmigiano-Reggiano"]
+
+*/
+cheddarsvg = document.getElementById("cheddar")
+cheddarsvg.addEventListener("click",function(){
+  console.log("yay!")
+})
+
+
+
+/*cheeses["cheddar"].wines*/

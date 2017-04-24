@@ -3,32 +3,32 @@ var wines = {
     name: "California Merlot",
     type: "red",
     cheeses: ["Parmigiano-Reggiano"]
-  }
-  pinot-noir : {
+  },
+  pinotnoir : {
     name: "Pinot Noir",
     type: "red",
     cheeses: ["Epoisses de Bourgogne", "Cheddar", "Manchego"]
-  }
-  red-bordeaux: {
+  },
+  redbordeaux: {
     name: "Red Bordeaux",
     type: "red",
     cheeses: ["Cheddar"]
-  }
+  },
   syrah: {
     name: "Syrah",
     type: "red",
     cheeses: ["Gruyere", "Cheddar", "Classic Blue"]
-  }
+  },
   chianti: {
     name: "Chianti Classico",
     type: "red",
     cheeses: ["Classic Blue"]
-  }
-  tuscan-sangiovese: {
+  },
+  tuscansangiovese: {
     name: "Tuscan Sangiovese",
     type: "red",
     cheeses: ["Gruyere"]
-  }
+  },
   barolo: {
     name: "Barolo",
     type: "red",
@@ -41,24 +41,24 @@ var cheeses = {
   cheddar: {
     name: "Cheddar",
     wines: ["Syrah", "Red Bordeaux", "Pinot Noir"]
-  }
-  epoisses-de: {
+  },
+  epoissesde: {
     name: "Epoisses de Bourgogne",
     wines: ["Alsatian Riesling", "Pinot Noir"]
-  }
-  classic-blue: {
+  },
+  classicblue: {
     name: "Classic Blue",
     wines: ["Chianti Classico", "Syrah"]
-  }
+  },
   gruyere: {
     name: "Gruyere",
     wines: ["Syrah", "Tuscan Sangiovese"]
-  }
+  },
   manchego: {
     name: "Manchego",
     wines: ["Pinot Noir"]
-  }
-  parmigiano-reggiano: {
+  },
+  parmigianoreggiano: {
     name: "Parmigiano-Reggiano",
     wines: ["California Merlot", "Barolo", "Parmigiano-Reggiano"]
   }
