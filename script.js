@@ -15,8 +15,10 @@ var barolo = ["Cheddar", "Parmigiano-Reggiano"]
 */
 cheddarsvg = document.getElementById("cheddar")
 cheddarsvg.addEventListener("click",function(){
-  console.log("yay!")
+  console.log(cheeses["cheddar"].wines)
 })
+
+/*add the names on hover*/
 
 
 
