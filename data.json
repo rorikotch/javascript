@@ -44,7 +44,7 @@ var cheeses = {
   },
   epoissesde: {
     name: "Epoisses de Bourgogne",
-    wines: ["Alsatian Riesling", "Pinot Noir"]
+    wines: ["Pinot Noir"]
   },
   classicblue: {
     name: "Classic Blue",

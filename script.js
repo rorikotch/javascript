@@ -18,6 +18,32 @@ cheddarsvg.addEventListener("click",function(){
   console.log(cheeses["cheddar"].wines)
 })
 
+cheddarsvg = document.getElementById("classicblue")
+cheddarsvg.addEventListener("click",function(){
+  console.log(cheeses["classicblue"].wines)
+})
+
+cheddarsvg = document.getElementById("epoissesde")
+cheddarsvg.addEventListener("click",function(){
+  console.log(cheeses["epoissesde"].wines)
+})
+
+cheddarsvg = document.getElementById("gruyere")
+cheddarsvg.addEventListener("click",function(){
+  console.log(cheeses["gruyere"].wines)
+})
+
+cheddarsvg = document.getElementById("manchego")
+cheddarsvg.addEventListener("click",function(){
+  console.log(cheeses["manchego"].wines)
+})
+
+cheddarsvg = document.getElementById("parmigianoreggiano")
+cheddarsvg.addEventListener("click",function(){
+  console.log(cheeses["parmigianoreggiano"].wines)
+})
+
+
 /*add the names on hover*/
 
 

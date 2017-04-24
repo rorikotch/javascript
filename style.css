@@ -28,6 +28,9 @@ a{
  svg {
    height: 240px;
    width: 240px;
+   margin-right: 24px;
+   margin-bottom: 24px;
+   float: left;
  }
 
  svg #mouse{
@@ -38,35 +41,49 @@ a{
    visibility: visible;
  }
 
+ svg:nth-child(3n+3) {
+       margin-right: 0;
+}
 
- #blue {
+ #container {
+   width: 720px;
+   margin: 10 auto;
+ }
+
+
+ #classicblue {
    max-width: 240px;
    max-height: 240px;
+   float: left;
 }
 
  #cheddar {
   position: relative;
   max-width: 240px;
-  max-height: 260px;
-  margin-left: 260px;
+  max-height: 240px;
+  float: left;
  }
 
- #epoisses {
+ #epoissesde {
    max-width: 240px;
    max-height: 240px;
+   float: left;
  }
 
 #gruyere {
    max-width: 240px;
    max-height: 240px;
+   float: left;
  }
 
  #manchego {
    max-width: 240px;
    max-height: 240px;
+   float: left;
  }
 
- #parm {
+ #parmigianoreggiano {
    max-width: 240px;
    max-height: 240px;
+   float: left;
  }
