@@ -43,6 +43,7 @@ parmigianoreggianoSvg.addEventListener("click",function(){
   console.log(cheeses["parmigianoreggiano"].wines)
 })
 
+
 /* parmigianoreggianoSvg = document.getElementById(cheeses.["parmigianoreggiano".name]).style.display = "none";
 */
 
