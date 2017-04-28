@@ -1,18 +1,21 @@
-/*var blue = ["Chianti Classico", "Syrah"]
-var cheddar = ["Syrah", "Red Bordeaux", "Pinot Noir"]
-var epoisses = ["Pinot Noir"]
-var gruyere = ["Syrah", "Tuscan Sangiovese"]
-var manchego = ["Pinot Noir"]
-var parm = ["California Merlot", "Barolo"]
-var merlot = ["Parmigiano-Reggiano"]
-var pinot-noir = ["Epoisses de Bourgogne", "Cheddar", "Manchego"]
-var red-bordeaux = ["Cheddar"]
-var syrah = ["Cheddar"]
-var chianti = ["Classic Blue"]
-var sangiovese = ["Gruyere"]
-var barolo = ["Cheddar", "Parmigiano-Reggiano"]
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function () {
+  modal.style.display = "block";
+}
 
-*/
+span.onclick = function () {
+  modal.style.display = "none";
+}
+
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+
 cheddarsvg = document.getElementById("cheddar")
 cheddarsvg.addEventListener("click",function(){
   console.log(cheeses["cheddar"].wines)
@@ -21,7 +24,6 @@ cheddarsvg.addEventListener("click",function(){
 cheddarsvg.addEventListener("click" , function(){
   window.alert(cheeses["cheddar"].wines);
 });
-
 
 classicbluesvg = document.getElementById("classicblue")
 classicbluesvg.addEventListener("click",function(){
@@ -68,6 +70,7 @@ parmigianoreggianoSvg.addEventListener("click",function(){
 parmigianoreggianoSvg.addEventListener("click" , function(){
   window.alert(cheeses["parmigianoreggiano"].wines);
 });
+
 
 
 
