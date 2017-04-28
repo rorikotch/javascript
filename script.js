@@ -38,9 +38,14 @@ classicbluesvg.addEventListener("click",function(){
   console.log(cheeses["classicblue"].wines)
 })
 
-classicbluesvg.addEventListener("click" , function(){
-  window.alert(cheeses["classicblue"].wines);
-});
+classicbluesvg.click(function(){
+  if (event.target == classicbluesvg)
+    modal.style.display(cheeses["classicblue"].wines);
+})
+
+// classicbluesvg.addEventListener("click" , function(){
+//   window.alert(cheeses["classicblue"].wines);
+// });
 
 
 epoissesdesvg = document.getElementById("epoissesde")
@@ -48,36 +53,41 @@ epoissesdesvg.addEventListener("click",function(){
   console.log(cheeses["epoissesde"].wines)
 })
 
-epoissesdesvg.addEventListener("click" , function(){
-  window.alert(cheeses["epoissesde"].wines);
-});
+// epoissesdesvg.addEventListener("click" , function(){
+//   window.alert(cheeses["epoissesde"].wines);
+// });
+
+epoissesde.click(function(){
+  if (event.target == epoissesdesvg)
+    modal.style.display(cheeses["epoissesde"].wines);
+})
 
 gruyeresvg = document.getElementById("gruyere")
 gruyeresvg.addEventListener("click",function(){
   console.log(cheeses["gruyere"].wines)
 })
 
-gruyeresvg.addEventListener("click" , function(){
-  window.alert(cheeses["gruyere"].wines);
-});
+// gruyeresvg.addEventListener("click" , function(){
+//   window.alert(cheeses["gruyere"].wines);
+// });
 
 manchegosvg = document.getElementById("manchego")
 manchegosvg.addEventListener("click",function(){
   console.log(cheeses["manchego"].wines)
 })
 
-manchegosvg.addEventListener("click" , function(){
-  window.alert(cheeses["manchego"].wines);
-});
+// manchegosvg.addEventListener("click" , function(){
+//   window.alert(cheeses["manchego"].wines);
+// });
 
 parmigianoreggianoSvg = document.getElementById("parmigianoreggiano")
 parmigianoreggianoSvg.addEventListener("click",function(){
   console.log(cheeses["parmigianoreggiano"].wines)
 })
 
-parmigianoreggianoSvg.addEventListener("click" , function(){
-  window.alert(cheeses["parmigianoreggiano"].wines);
-});
+// parmigianoreggianoSvg.addEventListener("click" , function(){
+//   window.alert(cheeses["parmigianoreggiano"].wines);
+// });
 
 
 
