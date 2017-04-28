@@ -16,14 +16,22 @@ window.onclick = function (event) {
 }
 
 
+
+var svg;
+
 cheddarsvg = document.getElementById("cheddar")
 cheddarsvg.addEventListener("click",function(){
-  console.log(cheeses["cheddar"].wines)
+  console.log(cheeses["cheddar"].wines);
 })
 
-cheddarsvg.addEventListener("click" , function(){
-  window.alert(cheeses["cheddar"].wines);
-});
+cheddarsvg.click(function(){
+  if (event.target == cheddarsvg)
+    modal.style.display(cheeses["cheddar"].wines);
+})
+
+// cheddarsvg.addEventListener("click" , function(){
+//   window.alert(cheeses["cheddar"].wines);
+// });
 
 classicbluesvg = document.getElementById("classicblue")
 classicbluesvg.addEventListener("click",function(){
