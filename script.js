@@ -53,18 +53,25 @@ epoissesdesvg.addEventListener("click",function(){
   console.log(cheeses["epoissesde"].wines)
 })
 
-// epoissesdesvg.addEventListener("click" , function(){
-//   window.alert(cheeses["epoissesde"].wines);
-// });
 
-epoissesde.click(function(){
+epoissesdesvg.click(function(){
   if (event.target == epoissesdesvg)
     modal.style.display(cheeses["epoissesde"].wines);
 })
 
+
+// epoissesdesvg.addEventListener("click" , function(){
+//   window.alert(cheeses["epoissesde"].wines);
+// });
+
 gruyeresvg = document.getElementById("gruyere")
 gruyeresvg.addEventListener("click",function(){
   console.log(cheeses["gruyere"].wines)
+})
+
+gruyere.click(function(){
+  if (event.target == gruyeresvg)
+    modal.style.display(cheeses["gruyere"].wines);
 })
 
 // gruyeresvg.addEventListener("click" , function(){
@@ -76,6 +83,11 @@ manchegosvg.addEventListener("click",function(){
   console.log(cheeses["manchego"].wines)
 })
 
+manchegosvg.click(function(){
+  if (event.target == manchegosvg)
+    modal.style.display(cheeses["manchego"].wines);
+})
+
 // manchegosvg.addEventListener("click" , function(){
 //   window.alert(cheeses["manchego"].wines);
 // });
@@ -83,6 +95,11 @@ manchegosvg.addEventListener("click",function(){
 parmigianoreggianoSvg = document.getElementById("parmigianoreggiano")
 parmigianoreggianoSvg.addEventListener("click",function(){
   console.log(cheeses["parmigianoreggiano"].wines)
+})
+
+parmigianoreggianoSvg.click(function(){
+  if (event.target == parmigianoreggianoSvg)
+    modal.style.display(cheeses["parmigianoreggiano"].wines);
 })
 
 // parmigianoreggianoSvg.addEventListener("click" , function(){
