@@ -114,6 +114,13 @@ p {
 
  button {
    width: 240px;
+   background: black;
+   color: white;
+   font-size: 14px;
+ }
+
+ button:hover {
+font-style: italic;
  }
 
 
