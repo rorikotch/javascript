@@ -9,25 +9,33 @@ span.onclick = function () {
   modal.style.display = "none";
 }
 
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
+// window.onclick = function (event) {
+//   if (event.target == modal) {
+//     modal.style.display = "none";
+//   }
 
 
 
-var svg;
+
 
 cheddarsvg = document.getElementById("cheddar")
 cheddarsvg.addEventListener("click",function(){
   console.log(cheeses["cheddar"].wines);
 })
 
-btn.click(function(){
-  // if (event.target == cheddarsvg)
-    modal.style.display(cheeses["cheddar"].wines);
-})
+// cheddarsvg.click(function(){
+//   // if (event.target == cheddarsvg)
+//     modal.style.display(cheeses["cheddar"].wines);
+// })
+
+btn.onclick = function() {
+    modal.style.display = "block"
+  }
+
+// window.onclick = function (event) {
+//   if (event.target == btn) {
+//     modal.style.display(cheeses["cheddar"].wines);
+//   }
 
 // cheddarsvg.addEventListener("click" , function(){
 //   window.alert(cheeses["cheddar"].wines);
@@ -38,10 +46,12 @@ classicbluesvg.addEventListener("click",function(){
   console.log(cheeses["classicblue"].wines)
 })
 
-btn.click(function(){
-  if (event.target == classicbluesvg)
-    modal.display(cheeses["classicblue"].wines);
-})
+// classicbluesvg.click(function(){
+//   if (event.target === classicbluesvg)
+//     modal.display(cheeses["classicblue"].wines);
+// })
+
+
 
 // classicbluesvg.addEventListener("click" , function(){
 //   window.alert(cheeses["classicblue"].wines);
