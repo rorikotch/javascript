@@ -24,8 +24,8 @@ cheddarsvg.addEventListener("click",function(){
   console.log(cheeses["cheddar"].wines);
 })
 
-cheddarsvg.click(function(){
-  if (event.target == cheddarsvg)
+btn.click(function(){
+  // if (event.target == cheddarsvg)
     modal.style.display(cheeses["cheddar"].wines);
 })
 
@@ -38,9 +38,9 @@ classicbluesvg.addEventListener("click",function(){
   console.log(cheeses["classicblue"].wines)
 })
 
-classicbluesvg.click(function(){
+btn.click(function(){
   if (event.target == classicbluesvg)
-    modal.style.display(cheeses["classicblue"].wines);
+    modal.display(cheeses["classicblue"].wines);
 })
 
 // classicbluesvg.addEventListener("click" , function(){
@@ -54,10 +54,10 @@ epoissesdesvg.addEventListener("click",function(){
 })
 
 
-epoissesdesvg.click(function(){
-  if (event.target == epoissesdesvg)
-    modal.style.display(cheeses["epoissesde"].wines);
-})
+// epoissesdesvg.click(function(){
+//   if (event.target == epoissesdesvg)
+//     modal.style.display(cheeses["epoissesde"].wines);
+// })
 
 
 // epoissesdesvg.addEventListener("click" , function(){
@@ -69,10 +69,10 @@ gruyeresvg.addEventListener("click",function(){
   console.log(cheeses["gruyere"].wines)
 })
 
-gruyere.click(function(){
-  if (event.target == gruyeresvg)
-    modal.style.display(cheeses["gruyere"].wines);
-})
+// gruyere.click(function(){
+//   if (event.target == gruyeresvg)
+//     modal.style.display(cheeses["gruyere"].wines);
+// })
 
 // gruyeresvg.addEventListener("click" , function(){
 //   window.alert(cheeses["gruyere"].wines);
@@ -83,10 +83,10 @@ manchegosvg.addEventListener("click",function(){
   console.log(cheeses["manchego"].wines)
 })
 
-manchegosvg.click(function(){
-  if (event.target == manchegosvg)
-    modal.style.display(cheeses["manchego"].wines);
-})
+// manchegosvg.click(function(){
+//   if (event.target == manchegosvg)
+//     modal.style.display(cheeses["manchego"].wines);
+// })
 
 // manchegosvg.addEventListener("click" , function(){
 //   window.alert(cheeses["manchego"].wines);
@@ -97,10 +97,10 @@ parmigianoreggianoSvg.addEventListener("click",function(){
   console.log(cheeses["parmigianoreggiano"].wines)
 })
 
-parmigianoreggianoSvg.click(function(){
-  if (event.target == parmigianoreggianoSvg)
-    modal.style.display(cheeses["parmigianoreggiano"].wines);
-})
+// parmigianoreggianoSvg.click(function(){
+//   if (event.target == parmigianoreggianoSvg)
+//     modal.style.display(cheeses["parmigianoreggiano"].wines);
+// })
 
 // parmigianoreggianoSvg.addEventListener("click" , function(){
 //   window.alert(cheeses["parmigianoreggiano"].wines);
