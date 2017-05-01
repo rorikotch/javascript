@@ -28,6 +28,8 @@ cheddarsvg.addEventListener("click",function(){
 //     modal.style.display(cheeses["cheddar"].wines);
 // })
 
+getElementById
+
 btn.onclick = function() {
     modal.style.display = "block"
   }
@@ -45,6 +47,11 @@ classicbluesvg = document.getElementById("classicblue")
 classicbluesvg.addEventListener("click",function(){
   console.log(cheeses["classicblue"].wines)
 })
+
+document.getElementById("classicbluebutton")
+  "classicbluebutton".addEventListener("click", function() {
+    modal.display ="block";
+  })
 
 // classicbluesvg.click(function(){
 //   if (event.target === classicbluesvg)
