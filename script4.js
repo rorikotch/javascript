@@ -28,11 +28,13 @@ cheddarsvg.addEventListener("click",function(){
 //     modal.style.display(cheeses["cheddar"].wines);
 // })
 
-getElementById
-
-btn.onclick = function() {
-    modal.style.display = "block"
-  }
+document.getElementById("cheddarbutton")
+  "cheddarbutton".addEventListener("click", function() {
+    modal.display ="block";
+  })
+// btn.onclick = function() {
+//     modal.style.display = "block"
+//   }
 
 // window.onclick = function (event) {
 //   if (event.target == btn) {
