@@ -1,36 +1,55 @@
-cheddarsvg = document.getElementById("cheddar")
-cheddarsvg.addEventListener("click",function(){
-  console.log(cheeses["cheddar"].wines);
-})
+// var list = document.querySelector("ul");
 
 
-classicbluesvg = document.getElementById("classicblue")
-classicbluesvg.addEventListener("click",function(){
-  console.log(cheeses["classicblue"].wines)
-})
+// document.querySelector("#title").textContent = info[event.target.id].color;
+//         document.querySelector("#saying").textContent = info[event.target.id].string;
+//         document.querySelector("#swatch").setAttribute("style", "background: rgb(" + info[event.target.id].rgb.join(",") + ");");
 
 
-epoissesdesvg = document.getElementById("epoissesde")
-epoissesdesvg.addEventListener("click",function(){
-  console.log(cheeses["epoissesde"].wines)
-})
+// cheddarsvg = document.getElementById("cheddar")
+// cheddarsvg.addEventListener("click",function(){
+//   console.log(cheeses["cheddar"].wines);
+// })
+//
+//
+// classicbluesvg = document.getElementById("classicblue")
+// classicbluesvg.addEventListener("click",function(){
+//   console.log(cheeses["classicblue"].wines)
+// })
+//
+//
+// epoissesdesvg = document.getElementById("epoissesde")
+// epoissesdesvg.addEventListener("click",function(){
+//   console.log(cheeses["epoissesde"].wines)
+// })
+//
+//
+//
+// gruyeresvg = document.getElementById("gruyere")
+// gruyeresvg.addEventListener("click",function(){
+//   console.log(cheeses["gruyere"].wines)
+// })
+//
+// manchegosvg = document.getElementById("manchego")
+// manchegosvg.addEventListener("click",function(){
+//   console.log(cheeses["manchego"].wines)
+// })
+//
+// parmigianoreggianoSvg = document.getElementById("parmigianoreggiano")
+// parmigianoreggianoSvg.addEventListener("click",function(){
+//   console.log(cheeses["parmigianoreggiano"].wines)
+// })
 
 
+var list = document.querySelector("#container");
 
-gruyeresvg = document.getElementById("gruyere")
-gruyeresvg.addEventListener("click",function(){
-  console.log(cheeses["gruyere"].wines)
-})
+list.addEventListener("click", function(event) {
+        console.dir(event.target);
 
-manchegosvg = document.getElementById("manchego")
-manchegosvg.addEventListener("click",function(){
-  console.log(cheeses["manchego"].wines)
-})
+        // document.querySelector("#cheesename").textContent = cheeses[event.target.id].wines;
+        // cheeses[event.target.id].wines.join(",") + ");";
+   });
 
-parmigianoreggianoSvg = document.getElementById("parmigianoreggiano")
-parmigianoreggianoSvg.addEventListener("click",function(){
-  console.log(cheeses["parmigianoreggiano"].wines)
-})
 
 // parmigianoreggianoSvg.click(function(){
 //   if (event.target == parmigianoreggianoSvg)
