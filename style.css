@@ -137,7 +137,8 @@ position: relative;
 */
 
 #modal {
-  /*position: relative;*/
-  /*text-align: center;*/
-  margin-left: 70px;
+  position: relative;
+  text-align: center;
+  margin-left: 220px;
+  /*z-index: 50px;*/
 }
