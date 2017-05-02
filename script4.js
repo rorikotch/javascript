@@ -46,8 +46,8 @@ var list = document.querySelector("#container");
 list.addEventListener("click", function(event) {
         console.dir(event.target.parentElement.parentElement.parentElement.id);
         //
-        document.querySelector("#cheesename").textContent = cheeses[event.target.id].wines;
-        // cheeses[event.target.id].wines.join(",") + ");";
+        document.querySelector("#cheesename").textContent = cheeses[event.target.parentElement.parentElement.parentElement.id].wines;
+        cheeses[event.target.id].wines.join(" , ") + " );";
    });
 
 
