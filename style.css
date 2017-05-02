@@ -135,3 +135,9 @@ p {
 position: relative;
 }
 */
+
+#modal {
+  /*position: relative;*/
+  /*text-align: center;*/
+  margin-left: 70px;
+}
