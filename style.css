@@ -75,7 +75,7 @@ p {
 }
 
  #container {
-   width: 740px;
+   width: 760px;
    margin: 0 auto;
 
  }
@@ -130,3 +130,8 @@ p {
   margin-bottom: 10px;
   margin-right: 10px;
 }
+
+/*#cheesename {
+position: relative;
+}
+*/
