@@ -44,6 +44,8 @@ p {
  svg {
    height: 180px;
    width: 260px;
+   max-width: 100%;
+   max-height: 100%;
  }
 
  svg {
@@ -76,8 +78,9 @@ p {
 
  #container {
    width: 760px;
-   margin: 0 auto;
-
+   /*margin: 0 auto;*/
+   max-width: 100%;
+   max-height: 100%;
  }
 
  #classicblue {
@@ -130,6 +133,7 @@ p {
   margin-bottom: 10px;
   margin-right: 10px;
 }
+
 
 /*#cheesename {
 position: relative;
