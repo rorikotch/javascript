@@ -138,12 +138,17 @@ position: relative;
 #modal {
   position: relative;
   text-align: center;
-  margin-left: 220px;
+  margin-left: 8px;
+  width: 720px;
   /*z-index: 50px;*/
   border: 1px solid black;
-  width: 960px;
   height: 50px;
 }
+
+#modal p {
+float: left;
+}
+
 
 button {
   color: white;
