@@ -47,11 +47,9 @@ list.addEventListener("click", function(event) {
         console.dir(event.target.parentElement.parentElement.parentElement.id);
         //
         document.querySelector("#cheesename").textContent = "This cheese pairs best with: " + cheeses[event.target.parentElement.parentElement.parentElement.id].wines;
+        document.getElementById("modal").style.display = "block";
         // cheeses[event.target.id].wines.join(",") + " );";
    });
-
-
-
 
 $("#closebutton").on("click", function () {
   $("#modal").css('display', 'none');
