@@ -50,6 +50,9 @@ list.addEventListener("click", function(event) {
         // cheeses[event.target.id].wines.join(",") + " );";
    });
 
+
+
+
 $("#closebutton").on("click", function () {
   $("#modal").css('display', 'none');
 });

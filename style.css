@@ -143,6 +143,7 @@ position: relative;
   /*z-index: 50px;*/
   border: 1px solid black;
   height: 50px;
+  display: none; 
 }
 
 #modal p {
