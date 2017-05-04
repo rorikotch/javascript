@@ -60,6 +60,6 @@ var cheeses = {
   },
   parmigianoreggiano: {
     name: "Parmigiano-Reggiano",
-    wines: ["California Merlot", "Barolo", "Parmigiano-Reggiano"]
+    wines: ["California Merlot", "Barolo" , " and more Parmigiano Reggiano"]
   }
 }

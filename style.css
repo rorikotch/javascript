@@ -144,27 +144,9 @@ position: relative;
   border: 1px solid black;
   height: 50px;
   display: none;
-  z-index: 100px; 
+  z-index: 100px;
 }
 
 #modal p {
 float: left;
-}
-
-
-button {
-  color: white;
-}
-
-#closebutton {
-  font-size: 16px;
-   width: 100px;
-   height: 30px;
-   background-color: black;
-   border: none;
-   position: absolute;
-   right: 0;
-   bottom: 0;
-   margin-bottom: 12px;
-   margin-right: 18px;
 }
